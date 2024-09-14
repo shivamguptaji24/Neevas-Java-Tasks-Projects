@@ -1,2 +1,3 @@
 # Neevas-Java-Tasks-Projects
-This repository include all the projects or tasks that are given in Neevas Java Development Intern.
+This repository includes all the projects or tasks given in Neevas Java Development Intern.
+All the tasks or projects are console-based.
