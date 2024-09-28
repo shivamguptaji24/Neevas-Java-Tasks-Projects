@@ -17,6 +17,7 @@ public class StudentManagementSystem {
 
         System.out.println("Enter Student Age: ");
         int age = scan.nextInt();
+        scan.nextLine();
 
         System.out.println("Enter Student Course: ");
         String course = scan.nextLine();
