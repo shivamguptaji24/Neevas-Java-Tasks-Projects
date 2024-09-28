@@ -78,6 +78,7 @@ public class InventoryManagementSystem {
     }
 
     // Load inventory data from a file
+    @SuppressWarnings("unchecked")
     private void loadInventoryFromFile() {
         try(ObjectInputStream ois = new ObjectInputStream(new FileInputStream(File_NAME))) {
             inventory = (HashMap<String, Item>) ois.readObject();
