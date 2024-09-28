@@ -22,6 +22,7 @@ public class StudentManagementSystem {
         String course = scan.nextLine();
 
         Student student = new Student(id, name, age, course);
+        students.put(id, student);
         System.out.println("Student added successfully !!!!!");
     }
 
